@@ -68,6 +68,14 @@ const app = {
             pathSong: './assets/music/list-song/noinaycoanh.mp3',
             duration : '04:20',
         },
+        
+        {
+            background: './assets/img/songs/emkhong.jpg',
+            name: 'Em Không Hiểu',
+            singer: 'Changg',
+            pathSong: './assets/music/list-song/emkhong.mp3',
+            duration : '04:13',
+        },
 
         {
             background: './assets/img/songs/ngaykhong.jpg',
