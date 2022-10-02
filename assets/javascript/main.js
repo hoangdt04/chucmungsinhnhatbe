@@ -58,125 +58,1111 @@ var backgroundIndex= 0;
 
 
 
-
-
-
-
 const app = {
     // sliderIndex: 0,
     songsData : [
         {
-            background: './assets/img/songs/0.webp',
-            name: 'Anh Đã Lạc Vào',
-            singer: 'Green, Đại Mèo Remix',
-            pathSong: './assets/music/list-song/0.mp3',
-            duration : '04:27',
+            background: './assets/img/songs/sontung.jpg',
+            name: 'Nơi Này Có Anh',
+            singer: 'Sơn Tùng M-TP',
+            pathSong: './assets/music/list-song/noinaycoanh.mp3',
+            duration : '04:20',
+        },
+
+        {
+            background: './assets/img/songs/ngaykhong.jpg',
+            name: 'Ngày Không Có Em',
+            singer: 'Thịnk (Piano Version)',
+            pathSong: './assets/music/list-song/ngaykhong.mp3',
+            duration : '04:23',
+        },
+
+        {
+            background: './assets/img/songs/tethat.jpg',
+            name: 'Tệ Thật, Anh Nhớ Em',
+            singer: 'Thanh Hưng',
+            pathSong: './assets/music/list-song/tethat.mp3',
+            duration : '05:38',
+        },
+
+        {
+            background: './assets/img/songs/she.jpg',
+            name: 'She Neva Knows',
+            singer: ' JustaTee ',
+            pathSong: './assets/music/list-song/she.mp3',
+            duration : '04:28',
+        },
+
+        
+        
+        {
+            background: './assets/img/songs/phailamsao.jpg',
+            name: 'Phải Làm Sao Để Níu Kéo Một Người',
+            singer: ' Sean x Tweny',
+            pathSong: './assets/music/list-song/phailamsao.mp3',
+            duration : '04:06',
+        },
+
+        {
+            background: './assets/img/songs/loitambiet.png',
+            name: 'Lời Tạm Biệt Chưa Nói',
+            singer: '  Grey D, Orange, Kai Đinh x CaoTri',
+            pathSong: './assets/music/list-song/loitambiet.mp3',
+            duration : '03:01',
+        },
+
+        {
+            background: './assets/img/songs/lanslide.jpg',
+            name: 'Landslide',
+            singer: 'Oh Wonder',
+            pathSong: './assets/music/list-song/landslide.mp3',
+            duration : '03:28',
+        },
+
+        
+
+        {
+            background: './assets/img/songs/all.jpg',
+            name: 'All Of Me',
+            singer: 'John Legend',
+            pathSong: './assets/music/list-song/allofme.mp3',
+            duration : '04:29',
         },
         {
-            background: './assets/img/songs/1.webp',
-            name: 'Chạy Về Khóc Với Anh',
-            singer: 'Erik, Duzme Remix',
-            pathSong: './assets/music/list-song/1.mp3',
+            background: './assets/img/songs/tsl.jpg',
+            name: '2ndTime',
+            singer: 'TSL, Marzuz',
+            pathSong: './assets/music/list-song/2ndtime.mp3',
+            duration : '03:35',
+        },
+        {
+            background: './assets/img/songs/2nd.jpg',
+            name: 'Mai',
+            singer: 'Marzuz',
+            pathSong: './assets/music/list-song/mai.mp3',
+            duration : '03:44',
+        },
+
+        {
+            background: './assets/img/songs/baby.jpg',
+            name: 'Angel Baby',
+            singer: 'Troye Sivan',
+            pathSong: './assets/music/list-song/baby.mp3',
+            duration : '04:18',
+        },
+
+        {
+            background: './assets/img/songs/pround.jpg',
+            name: 'Proud Of You',
+            singer: 'Fiona Fung',
+            pathSong: './assets/music/list-song/pround.mp3',
+            duration : '03:10',
+        },
+
+        {
+            background: './assets/img/songs/little.jpg',
+            name: 'A Little Love ',
+            singer: 'Fiona Fung',
+            pathSong: './assets/music/list-song/little.mp3',
+            duration : '03:07',
+        },
+
+        {
+            background: './assets/img/songs/aloha.jpg',
+            name: ' Aloha',
+            singer: ' Cool',
+            pathSong: './assets/music/list-song/aloha.mp3',
+            duration : '03:52',
+        },
+
+        {
+            background: './assets/img/songs/let.jpg',
+            name: ' Let Her Go ',
+            singer: 'Passenger',
+            pathSong: './assets/music/list-song/let.mp3',
+            duration : '04:14',
+        },
+
+        {
+            background: './assets/img/songs/atmy.png',
+            name: 'At My Worst ',
+            singer: 'Pink Sweat',
+            pathSong: './assets/music/list-song/atmy.mp3',
+            duration : '02:53',
+        },
+
+        {
+            background: './assets/img/songs/until.jpg',
+            name: ' Until You',
+            singer: 'Shayne Ward',
+            pathSong: './assets/music/list-song/until.mp3',
+            duration : '04:08',
+        },
+
+        {
+            background: './assets/img/songs/sofar.jpg',
+            name: 'So Far Away',
+            singer: 'Martin Garrix & David Guetta',
+            pathSong: './assets/music/list-song/sofar.mp3',
+            duration : '02:52',
+        },
+
+        {
+            background: './assets/img/songs/memories.jpg',
+            name: 'Memories',
+            singer: ' Maroon 5',
+            pathSong: './assets/music/list-song/memories.mp3',
+            duration : '03:06',
+        },
+
+        {
+            background: './assets/img/songs/anne.jpg',
+            name: '2002',
+            singer: 'Anne-Marie',
+            pathSong: './assets/music/list-song/anne.mp3',
+            duration : '03:07',
+        },
+        {
+            background: './assets/img/songs/mylove.jpg',
+            name: 'My Love',
+            singer: 'Westlife',
+            pathSong: './assets/music/list-song/mylove.mp3',
+            duration : '03:53',
+        },
+        {
+            background: './assets/img/songs/nothing.jpg',
+            name: " Nothing's Gonna Change My Love For You",
+            singer: 'George Benson',
+            pathSong: './assets/music/list-song/nothing.mp3',
+            duration : '03:49',
+        },
+        {
+            background: './assets/img/songs/love.jpg',
+            name: ' Love story',
+            singer: ' Taylor Swif',
+            pathSong: './assets/music/list-song/love.mp3',
+            duration : '03:54',
+        },
+        
+        
+        {
+            background: './assets/img/songs/cohenvoi.jpg',
+            name: 'Có Hẹn Với Thanh Xuân',
+            singer: 'MONSTAR',
+            pathSong: './assets/music/list-song/cohen.mp3',
+            duration : '03:38',
+        },
+        {
+            background: './assets/img/songs/saigon.jpg',
+            name: 'Sài Gòn Đau Lòng Quá',
+            singer: 'Hứa Kim Tuyền x Hoàng Duyên',
+            pathSong: './assets/music/list-song/saigon.mp3',
+            duration : '05:08',
+        },
+        {
+            background: './assets/img/songs/sinhra.jpg',
+            name: 'Sinh Ra Đã Là Thứ Đối Lập Nhau',
+            singer: 'Emcee L, Badbies',
+            pathSong: './assets/music/list-song/sinhra.mp3',
+            duration : '03:54',
+        },
+        {
+            background: './assets/img/songs/sorang.jpg',
+            name: 'Sợ Rằng Em Biết Anh Còn Yêu Em',
+            singer: 'Juun Đăng Dũng',
+            pathSong: './assets/music/list-song/sorang.mp3',
+            duration : '05:22',
+        },
+        {
+            background: './assets/img/songs/nangtho.jpg',
+            name: 'Nàng Thơ',
+            singer: 'Hoàng Dũng',
+            pathSong: './assets/music/list-song/nangtho.mp3',
+            duration : '04:14',
+        },
+
+        {
+            background: './assets/img/songs/tuchoi.jpg',
+            name: 'Từ Chối Nhẹ Nhàng Thôi',
+            singer: 'Phúc Du x Bích Phương',
+            pathSong: './assets/music/list-song/tuchoi.mp3',
+            duration : '04:17',
+        },
+
+        {
+            background: './assets/img/songs/duanao.jpg',
+            name: 'Đứa Nào Làm Em Buồn?',
+            singer: 'Phúc Du ft. Hoàng Dũng',
+            pathSong: './assets/music/list-song/duanao.mp3',
+            duration : '04:17',
+        },
+
+        {
+            background: './assets/img/songs/xuanthi.jpg',
+            name: 'Xuân Thì',
+            singer: 'Hà Anh Tuấn',
+            pathSong: './assets/music/list-song/xuanthi.mp3',
+            duration : '05:46',
+        },
+
+        {
+            background: './assets/img/songs/dapan.webp',
+            name: 'Đáp Án Cuối Cùng',
+            singer: 'Quân A.P',
+            pathSong: './assets/music/list-song/dapan.mp3',
+            duration : '04:51',
+        },
+
+
+        {
+            background: './assets/img/songs/codon.jpg',
+            name: 'Cô Đơn Không Muốn Về Nhà',
+            singer: 'Mr. Siro ',
+            pathSong: './assets/music/list-song/codon.mp3',
+            duration : '03:15',
+        },
+        {
+            background: './assets/img/songs/dunglo.jpg',
+            name: ' Đừng Lo Anh Đợi Mà',
+            singer: 'Mr. Siro',
+            pathSong: './assets/music/list-song/dunglo.mp3',
+            duration : '04:46',
+        },
+        {
+            background: './assets/img/songs/daydut.jpg',
+            name: 'Day Dứt Nỗi Đau',
+            singer: 'Mr. Siro',
+            pathSong: './assets/music/list-song/daydut.mp3',
+            duration : '04:58',
+        },
+        {
+            background: './assets/img/songs/duoinhung.jpg',
+            name: 'Dưới Những Cơn Mưa',
+            singer: 'Mr. Siro',
+            pathSong: './assets/music/list-song/duoinhung.mp3',
+            duration : '05:12',
+        },
+        {
+            background: './assets/img/songs/guongmat.jpg',
+            name: ' Gương Mặt Lạ Lẫm',
+            singer: 'Mr. Siro',
+            pathSong: './assets/music/list-song/guongmat.mp3',
+            duration : '05:49',
+        },
+        {
+            background: './assets/img/songs/motbuoc.jpg',
+            name: ' Một Bước Yêu Vạn Dặm Đau',
+            singer: 'Mr. Siro',
+            pathSong: './assets/music/list-song/motbuoc.mp3',
+            duration : '05:03',
+        },
+
+        {
+            background: './assets/img/songs/langnghe.jpg',
+            name: 'Lắng Nghe Nước Mắt',
+            singer: ' Mr. Siro',
+            pathSong: './assets/music/list-song/langnghe.mp3',
+            duration : '05:39',
+        },
+
+        {
+            background: './assets/img/songs/tulau.jpg',
+            name: 'Tự Lau Nước Mắt ',
+            singer: ' Mr. Siro',
+            pathSong: './assets/music/list-song/tulau.mp3',
+            duration : '05:22',
+        },
+
+        {
+            background: './assets/img/songs/codau.jpg',
+            name: 'Có Đâu Ai Ngờ',
+            singer: ' Thu Cầm',
+            pathSong: './assets/music/list-song/codau.mp3',
+            duration : '03:39',
+        },
+
+        {
+            background: './assets/img/songs/henmot.jpg',
+            name: 'Hẹn Một Mai ',
+            singer: ' Bùi Anh Tuấn',
+            pathSong: './assets/music/list-song/henmot.mp3',
+            duration : '04:47',
+        },
+
+        {
+            background: './assets/img/songs/anhthuong.webp',
+            name: ' Anh Thương Em Nhất Mà',
+            singer: ' Lã. x Log x TiB',
+            pathSong: './assets/music/list-song/anhthuong.mp3',
+            duration : '04:50',
+        },
+
+        {
+            background: './assets/img/songs/dieuchuanoi.jpg',
+            name: 'Điều Chưa Nói',
+            singer: ' Tùa',
+            pathSong: './assets/music/list-song/dieuchuanoi.mp3',
+            duration : '04:50',
+        },
+
+        {
+            background: './assets/img/songs/baolau.jpg',
+            name: 'Bao Lâu Ta Lại Yêu Một Người',
+            singer: ' Doãn Hiếu',
+            pathSong: './assets/music/list-song/baolau.mp3',
+            duration : '03:55',
+        },
+
+        {
+            background: './assets/img/songs/bonghoa.jpg',
+            name: 'Bông Hoa Chẳng Thuộc Về Ta',
+            singer: ' Việt',
+            pathSong: './assets/music/list-song/bonghoa.mp3',
+            duration : '03:36',
+        },
+
+        {
+            background: './assets/img/songs/chila.jpg',
+            name: 'Chỉ Là Muốn Nói (300)',
+            singer: ' Khải',
+            pathSong: './assets/music/list-song/chila.mp3',
+            duration : '04:46',
+        },
+
+        {
+            background: './assets/img/songs/cole.jpg',
+            name: 'Có Lẽ Quá Khó Để Quên 1 Người',
+            singer: '  1nG ft Nam Lee Dblue (Prod. 1nG)',
+            pathSong: './assets/music/list-song/cole.mp3',
+            duration : '04:48',
+        },
+
+        {
+            background: './assets/img/songs/dalo.jpg',
+            name: 'Đã Lỡ Yêu Em Nhiều',
+            singer: 'JustaTee',
+            pathSong: './assets/music/list-song/dalo.mp3',
+            duration : '04:21',
+        },
+
+        {
+            background: './assets/img/songs/conhu.jpg',
+            name: 'Có Như Không Có',
+            singer: 'Hiền Hồ',
+            pathSong: './assets/music/list-song/conhu.mp3',
+            duration : '04:33',
+        },
+
+        {
+            background: './assets/img/songs/guianh.jpg',
+            name: 'Gửi Anh Xa Nhớ',
+            singer: 'Bích Phương',
+            pathSong: './assets/music/list-song/guianh.mp3',
+            duration : '04:16',
+        },
+
+        {
+            background: './assets/img/songs/nghenhu.jpg',
+            name: 'Nghe Như Tình Yêu',
+            singer: 'Hieuthuhai',
+            pathSong: './assets/music/list-song/nghenhu.mp3',
+            duration : '03:13',
+        },
+
+        {
+            background: './assets/img/songs/hengap.jpg',
+            name: 'Hẹn Gặp Em Dưới Ánh Trăng',
+            singer: ' Hurryking, Hieuthuhai, Manbo',
+            pathSong: './assets/music/list-song/hengap.mp3',
+            duration : '03:52',
+        },
+
+        {
+            background: './assets/img/songs/cauhua.jpg',
+            name: 'Câu Hứa Chưa Vẹn Tròn',
+            singer: 'Phát Huy T4 x Hoàng green',
+            pathSong: './assets/music/list-song/cauhua.mp3',
+            duration : '04:34',
+        },
+
+        {
+            background: './assets/img/songs/kemduyen.webp',
+            name: 'Kém Duyên',
+            singer: 'Rum x Nit x Masew',
+            pathSong: './assets/music/list-song/kemduyen.mp3',
+            duration : '03:45',
+        },
+
+        {
+            background: './assets/img/songs/loduyen.jpg',
+            name: 'Mashup Lỡ Duyên',
+            singer: ' Rum x Nit',
+            pathSong: './assets/music/list-song/loduyen.mp3',
+            duration : '03:50',
+        },
+
+
+        {
+            background: './assets/img/songs/thanhxuan.jpg',
+            name: 'Thanh Xuân Ngọt Ngào',
+            singer: ' Lễ Vũ',
+            pathSong: './assets/music/list-song/thanhxuan.mp3',
+            duration : '04:24',
+        },
+
+        {
+            background: './assets/img/songs/aidauhay.webp',
+            name: 'Ai Đâu Hay',
+            singer: 'Sean x Luxofons',
+            pathSong: './assets/music/list-song/aidauhay.mp3',
+            duration : '05:56',
+        },
+
+
+        {
+            background: './assets/img/songs/anhchieutan.jpg',
+            name: 'Ánh Chiều Tàn',
+            singer: 'D Empty x Poll',
+            pathSong: './assets/music/list-song/anhchieutan.mp3',
+            duration : '03:46',
+        },
+
+        {
+            background: './assets/img/songs/emonkhong.jpg',
+            name: 'Em Ổn Không',
+            singer: 'Trịnh Thiên Ân x ViruSs x Soái Nhi',
+            pathSong: './assets/music/list-song/emonkhong.mp3',
+            duration : '05:19',
+        },
+
+        {
+            background: './assets/img/songs/nuocmat.jpg',
+            name: 'Nước Mắt Em Lau Bằng Tình Yêu Mới',
+            singer: 'Da Lab ft Tóc Tiên',
+            pathSong: './assets/music/list-song/nuocmat.mp3',
+            duration : '04:27',
+        },
+
+        {
+            background: './assets/img/songs/chivi.jpg',
+            name: 'Chỉ Vì Quá Thương Em',
+            singer: ' Hải Nam x Freak D',
+            pathSong: './assets/music/list-song/chivi.mp3',
+            duration : '05:12',
+        },
+
+        {
+            background: './assets/img/songs/maichangthuoc.jpg',
+            name: 'Mãi Chẳng Thuộc Về Nhau',
+            singer: '  Bozitt',
+            pathSong: './assets/music/list-song/maichangthuoc.mp3',
+            duration : '06:20',
+        },
+
+        {
+            background: './assets/img/songs/nhunggi.jpg',
+            name: 'Những Gì Anh Nói',
+            singer: 'Bozitt',
+            pathSong: './assets/music/list-song/nhunggi.mp3',
+            duration : '06:24',
+        },
+
+        {
+            background: './assets/img/songs/noai.jpg',
+            name: 'Nợ Ai Đó Lời Xin Lỗi',
+            singer: ' Bozitt',
+            pathSong: './assets/music/list-song/noai.mp3',
+            duration : '05:37',
+        },
+
+        {
+            background: './assets/img/songs/henyeu.jpg',
+            name: 'Hẹn Yêu',
+            singer: 'Duy Zuno',
+            pathSong: './assets/music/list-song/henyeu.mp3',
+            duration : '04:59',
+        },
+        {
+            background: './assets/img/songs/ho.jpg',
+            name: 'Họ Yêu Ai Mất Rồi',
+            singer: 'Doãn Hiếu',
+            pathSong: './assets/music/list-song/hoyeuai.mp3',
+            duration : '04:46',
+        },
+        {
+            background: './assets/img/songs/lieugio.jpg',
+            name: 'Liệu Giờ',
+            singer: '2T x Văn',
+            pathSong: './assets/music/list-song/lieugio.mp3',
+            duration : '04:18',
+        },
+
+
+        {
+            background: './assets/img/songs/amtham.jpg',
+            name: 'Âm Thầm Bên Em',
+            singer: 'Sơn Tùng M-TP',
+            pathSong: './assets/music/list-song/amtham.mp3',
+            duration : '04:00',
+        },
+
+        {
+            background: './assets/img/songs/lamnguoi.jpg',
+            name: 'Làm Người Luôn Yêu Em',
+            singer: 'Sơn Tùng M-TP',
+            pathSong: './assets/music/list-song/lamnguoi.mp3',
+            duration : '04:25',
+        },
+
+        {
+            background: './assets/img/songs/khuonmat.jpg',
+            name: 'Khuôn Mặt Đáng Thương',
+            singer: 'Sơn Tùng M-TP',
+            pathSong: './assets/music/list-song/khuonmat.mp3',
+            duration : '04:30',
+        },
+
+        {
+            background: './assets/img/songs/danhmatem.jpg',
+            name: 'Đánh Mất Em',
+            singer: 'Quang Đăng Trần',
+            pathSong: './assets/music/list-song/danhmatem.mp3',
+            duration : '03:48',
+        },
+
+        {
+            background: './assets/img/songs/demngay.jpg',
+            name: 'Đếm Ngày Xa Em',
+            singer: 'Lou Hoàng, Only C',
+            pathSong: './assets/music/list-song/demngayxaem.mp3',
+            duration : '04:23',
+        },
+
+        {
+            background: './assets/img/songs/yeu5.jpg',
+            name: 'Yêu 5',
+            singer: 'Rhymastic',
+            pathSong: './assets/music/list-song/yeu5.mp3',
+            duration : '04:10',
+        },
+
+        {
+            background: './assets/img/songs/maimai.jpg',
+            name: 'Mãi Mãi Không Phải Anh',
+            singer: 'Thanh Bình',
+            pathSong: './assets/music/list-song/maimai.mp3',
+            duration : '05:55',
+        },
+
+        {
+            background: './assets/img/songs/solam.jpg',
+            name: 'Sợ Lắm 2',
+            singer: 'NB3 Hoài Bảo x Freak D',
+            pathSong: './assets/music/list-song/solam.mp3',
+            duration : '04:03',
+        },
+
+        {
+            background: './assets/img/songs/kedien.jpg',
+            name: 'Kẻ Điên Tin Vào Tình Yêu',
+            singer: 'Lil Zpoet',
+            pathSong: './assets/music/list-song/kedien.mp3',
+            duration : '04:46',
+        },
+        {
+            background: './assets/img/songs/matmoc.jpg',
+            name: 'Mặt Mộc',
+            singer: 'Nguyên Ngọc x VAnh x Ân Nhi',
+            pathSong: './assets/music/list-song/matmoc.mp3',
+            duration : '03:26',
+        },
+        {
+            background: './assets/img/songs/lamnguoi1.jpg',
+            name: ' Làm Người Yêu Em Nhé Baby',
+            singer: ' Wendy Thảo',
+            pathSong: './assets/music/list-song/lamnguoi1.mp3',
             duration : '04:05',
         },
         {
-            background: './assets/img/songs/2.jpeg',
-            name: 'Sẵn Sàng Yêu Em Đi Thôi',
-            singer: 'Woni, Minh Tú, Đại Mèo Remix',
-            pathSong: './assets/music/list-song/2.mp3',
+            background: './assets/img/songs/motnha.jpg',
+            name: ' Một Nhà',
+            singer: 'Da Lab',
+            pathSong: './assets/music/list-song/motnha.mp3',
+            duration : '03:05',
+        },
+        {
+            background: './assets/img/songs/ngatu.jpg',
+            name: 'Ngã Tư Không Đèn',
+            singer: 'Trang X Khoa Vũ',
+            pathSong: './assets/music/list-song/ngatu.mp3',
+            duration : '03:35',
+        },
+        {
+            background: './assets/img/songs/homnay.jpg',
+            name: ' Hôm Nay Tôi Buồn ',
+            singer: 'Phùng Khánh Linh',
+            pathSong: './assets/music/list-song/homnay.mp3',
+            duration : '04:39',
+        },
+        {
+            background: './assets/img/songs/nucuoi.jpg',
+            name: 'Nụ Cười 18 20',
+            singer: 'Doãn Hiếu',
+            pathSong: './assets/music/list-song/nucuoi.mp3',
+            duration : '03:59',
+        },
+        {
+            background: './assets/img/songs/nguoiam.jpg',
+            name: 'Người Âm Phủ',
+            singer: ' Osad x Khánh Vy',
+            pathSong: './assets/music/list-song/nguoiam.mp3',
+            duration : '03:39',
+        },
+        {
+            background: './assets/img/songs/saigon1.jpg',
+            name: 'Sài Gòn Hôm Nay Mưa',
+            singer: 'Hoàng Duyên',
+            pathSong: './assets/music/list-song/saigon1.mp3',
+            duration : '04:13',
+        },
+
+        {
+            background: './assets/img/songs/khongquan.jpg',
+            name: 'Không Quan Tâm',
+            singer: ' Chi Dân',
+            pathSong: './assets/music/list-song/khongquan.mp3',
+            duration : '04:59',
+        },
+
+        {
+            background: './assets/img/songs/suthat.jpg',
+            name: 'Sự Thật Sau Một Lời Hứa',
+            singer: ' Chi Dân',
+            pathSong: './assets/music/list-song/suthat.mp3',
+            duration : '04:56',
+        },
+        
+        {
+            background: './assets/img/songs/vephia.jpg',
+            name: 'Về Phía Mưa',
+            singer: 'Thế Bảo',
+            pathSong: './assets/music/list-song/vephia.mp3',
+            duration : '05:33',
+        },
+
+        {
+            background: './assets/img/songs/troigiau.jpg',
+            name: 'Trời Giấu Trời Mang Đi',
+            singer: 'Amee x Viruss',
+            pathSong: './assets/music/list-song/troigiau.mp3',
+            duration : '04:24',
+        },
+
+        {
+            background: './assets/img/songs/yeunhieu.jpg',
+            name: 'Yêu Nhiều Ghen Nhiều',
+            singer: 'Thanh Hưng',
+            pathSong: './assets/music/list-song/yeunhieu.mp3',
+            duration : '04:18',
+        },
+
+
+        {
+            background: './assets/img/songs/waiting.jpg',
+            name: 'Waiting For You',
+            singer: 'MONO',
+            pathSong: './assets/music/list-song/waiting.mp3',
+            duration : '04:25',
+        },
+
+        {
+            background: './assets/img/songs/saoem.jpg',
+            name: 'Sao Em Lại Tắt Máy',
+            singer: 'Phạm Nguyên Ngọc x Vanh',
+            pathSong: './assets/music/list-song/saoem.mp3',
+            duration : '03:21',
+        },
+
+        {
+            background: './assets/img/songs/saulung.jpg',
+            name: 'Sau Lưng Anh Có Ai Kìa',
+            singer: 'Thiều Bảo Trâm',
+            pathSong: './assets/music/list-song/saulung.mp3',
+            duration : '05:13',
+        },
+
+        {
+            background: './assets/img/songs/tamsu.jpg',
+            name: 'Tâm Sự Tuổi 30',
+            singer: 'Trịnh Thăng Bình',
+            pathSong: './assets/music/list-song/tamsu.mp3',
+            duration : '04:16',
+        },
+        {
+            background: './assets/img/songs/nguoiay.jpg',
+            name: 'Người Ấy',
+            singer: 'Trịnh Thăng Bình',
+            pathSong: './assets/music/list-song/nguoiay.mp3',
+            duration : '04:13',
+        },
+
+        {
+            background: './assets/img/songs/khacbiet.jpg',
+            name: 'Khác Biệt To Lớn',
+            singer: 'Trịnh Thăng Bình',
+            pathSong: './assets/music/list-song/khacbiet.mp3',
             duration : '03:51',
         },
+        
         {
-            background: './assets/img/songs/3.webp',
-            name: 'Gieo Quẻ',
-            singer: 'Hoàng Thuỳ Linh, ĐEN, Orinn Remix',
-            pathSong: './assets/music/list-song/3.mp3',
-            duration : '04:27',
+            background: './assets/img/songs/sainguoi.jpg',
+            name: 'Sai Người Sai Thời Điểm',
+            singer: 'Thanh Hưng',
+            pathSong: './assets/music/list-song/sainguoi.mp3',
+            duration : '06:08',
+        },
+
+        {
+            background: './assets/img/songs/thaytoi.jpg',
+            name: 'Thay Tôi Yêu Cô Ấy',
+            singer: 'Thanh Hưng',
+            pathSong: './assets/music/list-song/thaytoi.mp3',
+            duration : '05:29',
+        },
+
+        {
+            background: './assets/img/songs/thithoi.jpg',
+            name: 'Thì Thôi',
+            singer: 'Reddy',
+            pathSong: './assets/music/list-song/thithoi.mp3',
+            duration : '05:52',
+        },
+
+        {
+            background: './assets/img/songs/yeudonphuong.jpg',
+            name: 'Yêu Đơn Phương',
+            singer: 'OnlyC ft Karik',
+            pathSong: './assets/music/list-song/yeudonphuong.mp3',
+            duration : '03:19',
+        },
+
+        
+
+        
+        {
+            background: './assets/img/songs/aino.webp',
+            name: 'Ái Nộ',
+            singer: 'Masew x Khoi Vu ft Minh Flute',
+            pathSong: './assets/music/list-song/aino.mp3',
+            duration : '04:05',
+        },
+
+        {
+            background: './assets/img/songs/nguoi.jpg',
+            name: 'Người Đáng Thương Là Anh',
+            singer: 'Only C',
+            pathSong: './assets/music/list-song/nguoidangthuong.mp3',
+            duration : '05:12',
         },
         {
-            background: './assets/img/songs/4.webp',
-            name: 'Vui Lắm Nha',
-            singer: 'Hương Ly, Jombie, RIN Music Remix',
-            pathSong: './assets/music/list-song/4.m4a',
-            duration : '05:16',
+            background: './assets/img/songs/cuoidi.jpg',
+            name: 'Cưới Đi',
+            singer: '2T, ChangC',
+            pathSong: './assets/music/list-song/cuoidi.mp3',
+            duration : '03:52',
         },
         {
-            background: './assets/img/songs/5.webp',
-            name: 'Lưu Số Em Đi',
-            singer: 'Huỳnh Văn, V.P. Tiên, Đại Mèo Remix',
-            pathSong: './assets/music/list-song/5.m4a',
-            duration : '04:10',
+            background: './assets/img/songs/anhsao.jpg',
+            name: 'Ánh Sao Và Bầu Trời',
+            singer: 'T.R.I x Cá',
+            pathSong: './assets/music/list-song/anhsao.mp3',
+            duration : '04:20',
         },
         {
-            background: './assets/img/songs/6.webp',
-            name: 'Như Một Người Dưng',
-            singer: 'Nguyễn Thạc Bảo Ngọc, Remix',
-            pathSong: './assets/music/list-song/6.mp3',
-            duration : '05:05',
+            background: './assets/img/songs/chill.jpg',
+            name: 'Cứ Chill Thôi',
+            singer: 'Chilies x Suni Hạ Linh',
+            pathSong: './assets/music/list-song/cuchill.mp3',
+            duration : '04:30',
         },
         {
-            background: './assets/img/songs/7.webp',
-            name: 'Ôm Nhiều Mộng Mơ',
-            singer: 'Phát Huy T4, Đại Mèo Remix',
-            pathSong: './assets/music/list-song/7.m4a',
-            duration : '03:16',
+            background: './assets/img/songs/chuyen.jpg',
+            name: 'Chuyện Đôi Ta',
+            singer: 'Emcee L x Muộii',
+            pathSong: './assets/music/list-song/chuyendoita.mp3',
+            duration : '03:28',
         },
+        
         {
-            background: './assets/img/songs/8.jpg',
-            name: 'Tình Yêu Ngủ Quên',
-            singer: 'Hoàng Tôn, LyHan, Orinn Remix',
-            pathSong: './assets/music/list-song/8.mp3',
-            duration : '04:27',
+            background: './assets/img/songs/lalung.jpg',
+            name: 'Lạ Lùng',
+            singer: 'Vũ',
+            pathSong: './assets/music/list-song/lalung.mp3',
+            duration : '04:21',
         },
+        
         {
-            background: './assets/img/songs/9.webp',
-            name: 'Không Bằng',
-            singer: 'Na, RIN Music Remix',
-            pathSong: './assets/music/list-song/9.m4a',
-            duration : '03:23',
+            background: './assets/img/songs/buocqua.jpg',
+            name: 'Bước Qua Mùa Cô Đơn',
+            singer: 'Vũ',
+            pathSong: './assets/music/list-song/buocqua.mp3',
+            duration : '04:38',
         },
+        
         {
-            background: './assets/img/songs/10.webp',
-            name: 'Ai Chung Tình Được Mãi',
-            singer: 'Đinh Tùng Huy, ACV Remix',
-            pathSong: './assets/music/list-song/10.m4a',
-            duration : '03:55',
+            background: './assets/img/songs/nhammat.jpg',
+            name: 'Nhắm Mắt Thấy Mùa Hè',
+            singer: 'Nguyên Hà',
+            pathSong: './assets/music/list-song/nhammat.mp3',
+            duration : '04:38',
         },
+
         {
-            background: './assets/img/songs/11.webp',
-            name: 'Cô Đơn Dành Cho Ai',
-            singer: 'NAL, LEE KEN, Orinn Remix',
-            pathSong: './assets/music/list-song/11.m4a',
-            duration : '04:45',
+            background: './assets/img/songs/sayyoudo.jpg',
+            name: 'Say You Do',
+            singer: 'Tiên Tiên',
+            pathSong: './assets/music/list-song/sayyoudo.mp3',
+            duration : '03:40',
         },
+       
         {
-            background: './assets/img/songs/12.webp',
-            name: 'Ánh mắt ta chạm nhau',
-            singer: 'Ngô Lan Hương, Đại Mèo remix',
-            pathSong: './assets/music/list-song/12.m4a',
-            duration : '06:01',
+            background: './assets/img/songs/timem.jpg',
+            name: 'Tìm Em',
+            singer: 'Trịnh Đình Quang',
+            pathSong: './assets/music/list-song/timem.mp3',
+            duration : '03:42',
         },
+        
         {
-            background: './assets/img/songs/13.webp',
-            name: '2 Phút Hơn',
-            singer: 'Phao, KAIZ Remix',
-            pathSong: './assets/music/list-song/13.m4a',
-            duration : '05:02',
+            background: './assets/img/songs/ucoanhday.jpg',
+            name: 'Ừ Có Anh Đây',
+            singer: 'Tino',
+            pathSong: './assets/music/list-song/ucoanhday.mp3',
+            duration : '06:09',
         },
+        
         {
-            background: './assets/img/songs/14.webp',
-            name: 'Là Ai Từ Bỏ Là Ai Vô Tình',
-            singer: 'Hương Ly, Jombie (G5R), RIN Music Remix',
-            pathSong: './assets/music/list-song/14.m4a',
-            duration : '03:25',
+            background: './assets/img/songs/buocquanhau.jpg',
+            name: 'Bước Qua Nhau',
+            singer: 'Vũ',
+            pathSong: './assets/music/list-song/buocquanhau.mp3',
+            duration : '04:17',
         },
+
         {
-            background: './assets/img/songs/2.jpeg',
-            name: 'Yêu Đừng Sợ Đau',
-            singer: 'Ngô Lan Hương, Cukak Remix',
-            pathSong: './assets/music/list-song/15.m4a',
-            duration : '03:51',
+            background: './assets/img/songs/nguoiyeukhoc.png',
+            name: 'Khi Người Mình Yêu Khóc',
+            singer: 'Phan Mạnh Quỳnh',
+            pathSong: './assets/music/list-song/khinguoi.mp3',
+            duration : '03:42',
         },
+
+        {
+            background: './assets/img/songs/thangtu.jpg',
+            name: 'Tháng Tư Là Lời Nói Dối Của Em',
+            singer: 'Hà Anh Tuấn',
+            pathSong: './assets/music/list-song/thangtu.mp3',
+            duration : '05:00',
+        },
+
+        {
+            background: './assets/img/songs/chamkhe.jpg',
+            name: 'Chạm Khẽ Tim Anh Một Chút Thôi',
+            singer: 'Noo Phước Thịnh',
+            pathSong: './assets/music/list-song/chamkhe.mp3',
+            duration : '05:47',
+        },
+
+        {
+            background: './assets/img/songs/coai.jpg',
+            name: 'Có Ai Thương Em Như Anh',
+            singer: ' Tóc Tiên x Touliver x Rap $onday',
+            pathSong: './assets/music/list-song/coaithuong.mp3',
+            duration : '03:45',
+        },
+
+        {
+            background: './assets/img/songs/dauco.jpg',
+            name: 'Dẫu Có Lỗi Lầm',
+            singer: 'Reddy Cover',
+            pathSong: './assets/music/list-song/dauco.mp3',
+            duration : '03:59',
+        },
+
+        {
+            background: './assets/img/songs/hongkong.jpg',
+            name: 'HongKong1',
+            singer: 'Nguyễn Trọng Tài x San Ji x Double X',
+            pathSong: './assets/music/list-song/hongkong1.mp3',
+            duration : '04:52',
+        },
+
+        {
+            background: './assets/img/songs/loianh.png',
+            name: 'Lời Anh Muốn Nói',
+            singer: 'The Men',
+            pathSong: './assets/music/list-song/loianh.mp3',
+            duration : '04:41',
+        },
+
+        {
+            background: './assets/img/songs/neulaanh.jpg',
+            name: ' Nếu Là Anh',
+            singer: 'The Men',
+            pathSong: './assets/music/list-song/neulaanh.mp3',
+            duration : '04:17',
+        },
+
+        {
+            background: './assets/img/songs/emluon.jpg',
+            name: 'Em Luôn Ở Trong Tâm Trí Anh',
+            singer: 'The Men',
+            pathSong: './assets/music/list-song/emluon.mp3',
+            duration : '04:26',
+        },
+
+        {
+            background: './assets/img/songs/chamday.jpg',
+            name: 'Chạm Đáy Nỗi Đau',
+            singer: ' Erik',
+            pathSong: './assets/music/list-song/chamday.mp3',
+            duration : '04:50',
+        },
+
+        {
+            background: './assets/img/songs/yeuduockhong.jpg',
+            name: 'Yêu Được Không',
+            singer: ' Đức Phúc x Viruss',
+            pathSong: './assets/music/list-song/yeuduockhong.mp3',
+            duration : '05:08',
+        },
+
+        {
+            background: './assets/img/songs/xindung.jpg',
+            name: 'Xin Đừng Lặng Im ',
+            singer: 'Soobin Hoàng Sơn',
+            pathSong: './assets/music/list-song/xindung.mp3',
+            duration : '04:07',
+        },
+
+
+        {
+            background: './assets/img/songs/neungayay.jpg',
+            name: 'Nếu Ngày Ấy',
+            singer: 'Soobin Hoàng Sơn',
+            pathSong: './assets/music/list-song/neungayay.mp3',
+            duration : '04:52',
+        },
+
+
+        {
+            background: './assets/img/songs/tusu.jpg',
+            name: 'Tự Sự',
+            singer: 'Orange',
+            pathSong: './assets/music/list-song/tusu.mp3',
+            duration : '04:17',
+        },
+
+        {
+            background: './assets/img/songs/yeuthuong.jpg',
+            name: 'Yêu Thương Ngày Đó',
+            singer: 'Soobin Hoàng Sơn',
+            pathSong: './assets/music/list-song/yeuthuong.mp3',
+            duration : '04:22',
+        },
+
+        
+        
+
+        {
+            background: './assets/img/songs/muadong.jpg',
+            name: 'Mùa Đông Khóc',
+            singer: ' Khánh Đơn',
+            pathSong: './assets/music/list-song/muadong.mp3',
+            duration : '03:33',
+        },
+
+        {
+            background: './assets/img/songs/chieunay.jpg',
+            name: 'Chiều Nay Không Có Mưa Bay',
+            singer: ' Thế Phương VBK ( Acoustic)',
+            pathSong: './assets/music/list-song/chieunay.mp3',
+            duration : '05:12',
+        },
+
+        {
+            background: './assets/img/songs/hayra.jpg',
+            name: 'Hãy Ra Khỏi Người Đó Đi',
+            singer: 'Phan Mạnh Quỳnh',
+            pathSong: './assets/music/list-song/hayra.mp3',
+            duration : '03:13',
+        },
+
+        {
+            background: './assets/img/songs/saominh.jpg',
+            name: 'Sao Mình Chưa Nắm Tay Nhau',
+            singer: ' Yan Nguyễn',
+            pathSong: './assets/music/list-song/saominh.mp3',
+            duration : '04:44',
+        },
+
+        {
+            background: './assets/img/songs/thangmay.jpg',
+            name: 'Tháng Mấy Em Nhớ Anh',
+            singer: ' Hà Anh Tuấn',
+            pathSong: './assets/music/list-song/thangmay.mp3',
+            duration : '06:09',
+        },
+
+        {
+            background: './assets/img/songs/toithay.jpg',
+            name: 'Tôi Thấy Hoa Vàng Trên Cỏ Xanh',
+            singer: '  Ái Phương',
+            pathSong: './assets/music/list-song/toithay.mp3',
+            duration : '03:12',
+        },
+
+        {
+            background: './assets/img/songs/ngaychua.jpg',
+            name: 'Ngày Chưa Giông Bão',
+            singer: ' Bùi Lan Hương',
+            pathSong: './assets/music/list-song/ngaychua.mp3',
+            duration : '03:48',
+        },
+
+        {
+            background: './assets/img/songs/cochang.jpg',
+            name: 'Có Chàng Trai Viết Lên Cây',
+            singer: ' Phan Mạnh Quỳnh',
+            pathSong: './assets/music/list-song/cochang.mp3',
+            duration : '05:10',
+        },
+
+        {
+            background: './assets/img/songs/emmim.png',
+            name: 'Em Mỉm Cười Trông Thật Đẹp',
+            singer: 'Trịnh Đình Quang',
+            pathSong: './assets/music/list-song/emmim.mp3',
+            duration : '02:45',
+        },
+
+
+        {
+            background: './assets/img/songs/tiktok.jpg',
+            name: ':v',
+            singer: 'vui vẻ khum quạo nka',
+            pathSong: './assets/music/list-song/tiktok1.mp3',
+            duration : '01:54',
+        },
+
+        {
+            background: './assets/img/songs/tiktok1.jpg',
+            name: '=))))))))))))))',
+            singer: 'chúc cọu ngủ ngon',
+            pathSong: './assets/music/list-song/tiktok2.mp3',
+            duration : '01:54',
+        },
+        
     ],
     currentIndex : 0,
     isPlaying: false,
@@ -193,6 +1179,9 @@ const app = {
         })
     },
 
+
+    
+
     toastSlide: function() {
         const toatMain = $('#toast');
         if (toatMain) {
@@ -201,7 +1190,7 @@ const app = {
             toast.innerHTML = `
                 <div class="toast__item">
                     <i class="fa-solid fa-circle-exclamation"></i>
-                    <span>Chức năng này đang được phát triển, bạn vui lòng thử lại sau !</span>
+                    <span> Cậu cứ nghe nhạc đi á, tớ đang suy nghĩ xem nên làm gì tiếp theo ấy, dù sao cũng chúc mừng sinh nhật cậu nha :3 </span>
                 </div>
             `;
             toatMain.appendChild(toast);
@@ -210,6 +1199,9 @@ const app = {
             }, 3000)
         }
     },
+
+    
+   
 
     // THEME APPLY SKIN
     applyTheme: function() {
@@ -223,19 +1215,19 @@ const app = {
                     $('.header').style.boxShadow = '0 3px 5px rgba(0,0,0,0.1)';
                     $('.main').style.backgroundImage = 'url(./assets/img/background-theme/backroundThemes/0.svg)';
                     $('.main-music-control').style.backgroundImage = '';
-                    $('.main-music-control').style.backgroundColor = '#37075D';
+                    $('.main-music-control').style.backgroundColor = '#3c999c';
                     $('.mobile-tab').style.backgroundColor = '#37075D';
-                    $('.sidebar__add-playlist').style.backgroundColor = '#411465';
+                    $('.sidebar__add-playlist').style.backgroundColor = '#1fa4a9';
                     $('.sidebar__add-playlist').style.borderTop = '1px solid rgba(255, 255, 255, 0.1)';
                     $('.nextsong__option-wrapper').style.backgroundColor = '#4B206E';
-                    $('.header__width-search-sub').style.backgroundColor = '#6A39AF';
+                    $('.header__width-search-sub').style.backgroundColor = '#B2D8DB';
                     $('.header__width-search-sub').classList.add('header__width-search-sub--purple');
                     $('.header__width-search-sub').classList.remove('header__width-search-sub--white');
                     $('.header__width-search-sub').classList.remove('header__width-search-sub--green');
                     $('.header__width-search-sub').classList.remove('header__width-search-sub--gray');
                     $('.header__width-search').classList.remove('js__gray-backgroundColor');
-                    $('.header__setting-list').style.backgroundColor = '#6A39AF';
-                    $('.theme-modal__body').style.backgroundColor = '#6A39AF';
+                    $('.header__setting-list').style.backgroundColor = '#B2D8DB';
+                    $('.theme-modal__body').style.backgroundColor = '#B2D8DB';
                     $('.nextsong__option-wrapper-listplay').style.backgroundColor = '#816399';
                     $('.main-sidebar').style.backgroundColor = 'hsla(0,0%,100%,0.05)';
                     $('.header__width-search-input').classList.remove('header__width-search-input--white');
@@ -251,6 +1243,7 @@ const app = {
                     $$('.js__sub-color').forEach((item) => {
                         item.style.color = 'rgba(255, 255, 255, 0.5)';
                     })
+                
                     $$('.js__backgroundColor').forEach((item) => {
                         item.style.backgroundColor = "rgba(255, 255, 255, 0.1)";
                     })
@@ -261,8 +1254,8 @@ const app = {
                     backgroundIndex = 1;
                     $('.header').style.backgroundColor = `var(--header-color-${backgroundIndex})`;
                     $('.header').style.boxShadow = '0 3px 5px rgba(0,0,0,0.1)';
-                    $('.main').style.backgroundImage = 'url(./assets/img/background-theme/backroundThemes/1.jpg)';
-                    $('.main-music-control').style.backgroundImage = 'none';
+                    // $('.main').style.backgroundImage = 'url(./assets/img/background-theme/backroundThemes/1.jpg)';
+                    // $('.main-music-control').style.backgroundImage = 'none';
                     $('.main-music-control').style.backgroundColor = '#202020';
                     $('.mobile-tab').style.backgroundColor = '#202020';
                     $('.sidebar__add-playlist').style.backgroundColor = '#333333';
@@ -563,7 +1556,7 @@ const app = {
                         </div>
                     </div>
                     <div class="songs-item-center tablet-hiden mobile-hiden  js__sub-color">
-                        <span>${song.name} (Remix)</span>
+                        <span>${song.name} </span>
                     </div>
                     <div class="songs-item-right mobile-hiden ">
                         <span class="songs-item-right-mv ipad-air-hiden"><i class="fas fa-photo-video js__main-color"></i></span>
@@ -600,7 +1593,7 @@ const app = {
                         </div>
                     </div>
                     <div class="songs-item-center tablet-hiden mobile-hiden js__sub-color">
-                        <span>${song.name} (Remix)</span>
+                        <span>${song.name} </span>
                     </div>
                     <div class="songs-item-right mobile-hiden">
                         <span class="songs-item-right-mv ipad-air-hiden"><i class="fas fa-photo-video js__main-color"></i></span>
@@ -639,7 +1632,7 @@ const app = {
                         </div>
                     </div>
                     <div class="songs-item-center tablet-hiden mobile-hiden js__sub-color">
-                        <span>${song.name} (Remix)</span>
+                        <span>${song.name} </span>
                     </div>
                     <div class="songs-item-right mobile-hiden">
                         <span class="songs-item-right-mv ipad-air-hiden"><i class="fas fa-photo-video js__main-color"></i></span>
@@ -678,7 +1671,7 @@ const app = {
                         </div>
                     </div>
                     <div class="songs-item-center tablet-hiden mobile-hiden js__sub-color">
-                        <span>${song.name} (Remix)</span>
+                        <span>${song.name}</span>
                     </div>
                     <div class="songs-item-right mobile-hiden">
                         <span class="songs-item-right-mv ipad-air-hiden"><i class="fas fa-photo-video js__main-color"></i></span>
@@ -760,7 +1753,7 @@ const app = {
         if (this.currentIndex >= this.songsData.length - 1) {
             playListElement.innerHTML = `
             <span class="nextsong__last-item-end js__sub-color">
-                HẾT BÀI RỒI BẠN ƠI! HAHA
+                Muốn nghe bài gì nữa thì nhắn cho tớ nhé :3 Happy birthday.
             </span>`;
         } else {
             const htmls = this.songsData.map((song, index) => {
@@ -792,7 +1785,7 @@ const app = {
     // RENDER LIST NEXT SONG RANDOM
     renderNextSongListRandom: function(playListElement) {
         const htmls =  `<span class="nextsong__option-random">
-                            Bật chế độ random thì cần gì xem trước bài phát tiếp theo nhể, đỡ phải code :)
+                            Bật chế độ random thì cần gì xem trước, cứ thế nghe thui ạ :)
                         </span>`
         playListElement.innerHTML = htmls;
     },
@@ -1053,7 +2046,7 @@ const app = {
                 }
             })
             sliderIndex++;
-            if (sliderIndex >= sliderLenght) {
+            if (sliderIndex >=16) {
                 sliderIndex = 0;
             }
         }
@@ -1226,7 +2219,7 @@ const app = {
                 _this.renderNextSongHeadding(nextSongHeadding,this.songsData);
                 nextSongList.innerHTML = `
                     <span class="nextsong__last-item-end">
-                        Bật chế độ random thì cần gì xem trước bài phát tiếp theo nhể, đỡ phải code :)
+                    Bật chế độ random thì cần gì xem trước, cứ thế nghe thui ạ :)
                     </span>`;
             } else {
                 _this.nextSong();
@@ -1247,7 +2240,7 @@ const app = {
                 _this.renderNextSongHeadding(nextSongHeadding,this.songsData);
                 nextSongList.innerHTML = `
                     <span class="nextsong__last-item-end">
-                        Bật chế độ random thì cần gì xem trước bài phát tiếp theo nhể, đỡ phải code :)
+                    Bật chế độ random thì cần gì xem trước, cứ thế nghe thui ạ :)
                     </span>`;
             } else {
                 _this.nextSong();
@@ -1268,7 +2261,7 @@ const app = {
                 _this.renderNextSongHeadding(nextSongHeadding,this.songsData);
                 nextSongList.innerHTML = `
                     <span class="nextsong__last-item-end">
-                        Bật chế độ random thì cần gì xem trước bài phát tiếp theo nhể, đỡ phải code :)
+                    Bật chế độ random thì cần gì xem trước, cứ thế nghe thui ạ :)
                     </span>`;
                 _this.scrollToActiveNextSong();
             } else {
@@ -1290,7 +2283,7 @@ const app = {
                 _this.renderNextSongHeadding(nextSongHeadding,this.songsData);
                 nextSongList.innerHTML = `
                     <span class="nextsong__last-item-end">
-                        Bật chế độ random thì cần gì xem trước bài phát tiếp theo nhể, đỡ phải code :)
+                    Bật chế độ random thì cần gì xem trước, cứ thế nghe thui ạ :)
                     </span>`;
                 _this.scrollToActiveNextSong();
             } else {
@@ -1315,7 +2308,7 @@ const app = {
                 _this.renderNextSongHeadding(nextSongHeadding,_this.songsData);
                 nextSongList.innerHTML = `
                     <span class="nextsong__last-item-end">
-                        Bật chế độ random thì cần gì xem trước bài phát tiếp theo nhể, đỡ phải code :)
+                    Bật chế độ random thì cần gì xem trước, cứ thế nghe thui ạ :)
                     </span>`;
             } else {
                 _this.renderNexrSong();
@@ -1336,7 +2329,7 @@ const app = {
                 _this.renderNextSongHeadding(nextSongHeadding,_this.songsData);
                 nextSongList.innerHTML = `
                     <span class="nextsong__last-item-end">
-                        Bật chế độ random thì cần gì xem trước bài phát tiếp theo nhể, đỡ phải code :)
+                    Bật chế độ random thì cần gì xem trước, cứ thế nghe thui ạ :)
                     </span>`;
             } else {
                 _this.renderNexrSong();
@@ -1365,10 +2358,10 @@ const app = {
                     _this.renderNextSongHeadding(nextSongHeadding,_this.songsData);
                     nextSongList.innerHTML = `
                         <span class="nextsong__last-item-end">
-                            Bật chế độ random thì cần gì xem trước bài phát tiếp theo nhể, đỡ phải code :)
+                        Bật chế độ random thì cần gì xem trước, cứ thế nghe thui ạ :)
                         </span>`;
                 } else if (!_this.isRandom && _this.currentIndex >= _this.songsData.length - 1) {
-                    $('.nextsong__last-item-end').textContent = 'HẾT BÀI RỒI BẠN ƠI! HAHA';
+                    $('.nextsong__last-item-end').textContent = 'Muốn nghe bài gì nữa thì nhắn cho tớ nhé :3 Happy birthday.';
                 } else {
                     _this.renderNexrSong();
                     _this.scrollToActiveNextSong();
@@ -1397,10 +2390,10 @@ const app = {
                     _this.renderNextSongHeadding(nextSongHeadding,_this.songsData);
                     nextSongList.innerHTML = `
                         <span class="nextsong__last-item-end">
-                            Bật chế độ random thì cần gì xem trước bài phát tiếp theo nhể, đỡ phải code :)
+                        Bật chế độ random thì cần gì xem trước, cứ thế nghe thui ạ :)
                         </span>`;
                 } else if (!_this.isRandom && _this.currentIndex >= _this.songsData.length - 1) {
-                    $('.nextsong__last-item-end').textContent = 'HẾT BÀI RỒI BẠN ƠI! HAHA';
+                    $('.nextsong__last-item-end').textContent = 'Muốn nghe bài gì nữa thì nhắn cho tớ nhé :3 Happy birthday.';
                 } else {
                     _this.renderNexrSong();
                     _this.scrollToActiveNextSong();
@@ -1483,11 +2476,11 @@ const app = {
                 _this.renderNextSongHeadding(nextSongHeadding,_this.songsData);
                 nextSongList.innerHTML = `
                     <span class="nextsong__last-item-end">
-                        Bật chế độ random thì cần gì xem trước <br> bài phát tiếp theo nhể, đỡ phải code :)
+                    Bật chế độ random thì cần gì xem trước, cứ thế nghe thui ạ :)
                     </span>`;
             } else {
                 if (_this.currentIndex >= _this.songsData.length - 1) {
-                    $('.nextsong__last-item-end').textContent = 'HẾT BÀI RỒI BẠN ƠI! HAHA';
+                    $('.nextsong__last-item-end').textContent = 'Muốn nghe bài gì nữa thì nhắn cho tớ nhé :3 Happy birthday.';
                 } else {
                     _this.renderNexrSong();
                     _this.scrollToActiveNextSong();
@@ -1512,11 +2505,11 @@ const app = {
                 _this.renderNextSongHeadding(nextSongHeadding,_this.songsData);
                 nextSongList.innerHTML = `
                     <span class="nextsong__last-item-end">
-                        Bật chế độ random thì cần gì xem trước <br> bài phát tiếp theo nhể, đỡ phải code :)
+                    Bật chế độ random thì cần gì xem trước, cứ thế nghe thui ạ :)
                     </span>`;
             } else {
                 if (_this.currentIndex >= _this.songsData.length - 1) {
-                    $('.nextsong__last-item-end').textContent = 'HẾT BÀI RỒI BẠN ƠI! HAHA';
+                    $('.nextsong__last-item-end').textContent = 'Muốn nghe bài gì nữa thì nhắn cho tớ nhé :3 Happy birthday.';
                 } else {
                     _this.renderNexrSong();
                     _this.scrollToActiveNextSong();
@@ -1674,6 +2667,8 @@ const app = {
     //         document.querySelector('.vetinh-1').style.top = py + "px"; 
     //     })
     // },
+
+    
         
 
     //=================================================================
@@ -1711,7 +2706,22 @@ const app = {
 }
 
 
+const modalAdd = document.querySelector('#modalAdd');
+
+const openModal = () => {
+    modalAdd.style.display = 'flex';
+}
+
+const closeModal = () => {
+    modalAdd.style.display = 'none';
+}
+
 app.start();
+
+
+
+
+
 
 
 
