@@ -41,7 +41,7 @@
         right: var(--next-song-width-laptop);
     }
     .option-all {
-        margin-left: 35px;
+        margin-left: 30px;
         margin-right: 30px;
     }
 
@@ -324,6 +324,7 @@
 
     .tabs-item.music__option-item {
         margin-right: 3px;
+        font-size: 1rem;
     }
 
     .music-control__left,

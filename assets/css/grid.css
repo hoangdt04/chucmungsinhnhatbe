@@ -14,6 +14,7 @@
     flex-wrap: wrap;
     margin-left: -4px;
     margin-right: -4px;
+    
 }
 
 .row.no-gutters {
@@ -144,6 +145,7 @@
     .row {
         margin-left: -8px;
         margin-right: -8px;
+        
     }
 
     .col {
@@ -278,8 +280,9 @@
 /* PC medium resolution > */
 @media (min-width: 1113px) {
     .row {
-        margin-left: -12px;
-        margin-right: -12px;
+        margin-left: -22px;
+        margin-right: -22px;
+        
     }
 
     .row.sm-gutter {
