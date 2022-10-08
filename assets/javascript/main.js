@@ -150,6 +150,14 @@ const app = {
             pathSong: './assets/music/list-song/mai.mp3',
             duration : '03:44',
         },
+        
+        {
+            background: './assets/img/songs/head.jpg',
+            name: ' Head In The Clouds',
+            singer: ' Hayd ',
+            pathSong: './assets/music/list-song/head.mp3',
+            duration : '03:04',
+        },
 
         {
             background: './assets/img/songs/baby.jpg',
@@ -1165,8 +1173,8 @@ const app = {
 
         {
             background: './assets/img/songs/tiktok1.jpg',
-            name: '=))))))))))))))',
-            singer: 'chúc cọu ngủ ngon',
+            name: ':3',
+            singer: 'ngủ sớm đi đừng thức khuya nữa',
             pathSong: './assets/music/list-song/tiktok2.mp3',
             duration : '01:54',
         },
@@ -1198,7 +1206,7 @@ const app = {
             toast.innerHTML = `
                 <div class="toast__item">
                     <i class="fa-solid fa-circle-exclamation"></i>
-                    <span> Cậu cứ nghe nhạc đi á, tớ đang suy nghĩ xem nên làm gì tiếp theo ấy, dù sao cũng chúc mừng sinh nhật cậu nha :3 </span>
+                    <span> Cậu cứ nghe nhạc đi á, đợi tớ về rồi sẽ cập nhật thêm nha, dù sao cũng chúc mừng sinh nhật cậu nha :3 </span>
                 </div>
             `;
             toatMain.appendChild(toast);
@@ -1761,7 +1769,7 @@ const app = {
         if (this.currentIndex >= this.songsData.length - 1) {
             playListElement.innerHTML = `
             <span class="nextsong__last-item-end js__sub-color">
-                Muốn nghe bài gì nữa thì nhắn cho tớ nhé :3 Happy birthday.
+                Tớ đang thêm nhạc nè, cậu muốn nghe bài gì nào... Happy birthday.
             </span>`;
         } else {
             const htmls = this.songsData.map((song, index) => {
@@ -2488,7 +2496,7 @@ const app = {
                     </span>`;
             } else {
                 if (_this.currentIndex >= _this.songsData.length - 1) {
-                    $('.nextsong__last-item-end').textContent = 'Muốn nghe bài gì nữa thì nhắn cho tớ nhé :3 Happy birthday.';
+                    $('.nextsong__last-item-end').textContent = ' Tớ đang thêm nhạc nè, cậu muốn nghe bài gì nào... Happy birthday.';
                 } else {
                     _this.renderNexrSong();
                     _this.scrollToActiveNextSong();
@@ -2517,7 +2525,7 @@ const app = {
                     </span>`;
             } else {
                 if (_this.currentIndex >= _this.songsData.length - 1) {
-                    $('.nextsong__last-item-end').textContent = 'Muốn nghe bài gì nữa thì nhắn cho tớ nhé :3 Happy birthday.';
+                    $('.nextsong__last-item-end').textContent = ' Tớ đang thêm nhạc nè, cậu muốn nghe bài gì nào... Happy birthday.';
                 } else {
                     _this.renderNexrSong();
                     _this.scrollToActiveNextSong();
