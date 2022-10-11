@@ -1582,6 +1582,12 @@
     padding: 10px 0 2px 0;
 }
 
+.option-all__playlist-item-content-singer-name3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 10px 0 2px 0;
+}
+
 .continue{
     padding-top: 10px;
 }
@@ -1589,6 +1595,11 @@
 .option-all__playlist-item-content-singer-name1:hover {
     color: var(--primary-color);
 }
+
+.option-all__playlist-item-content-singer-name3:hover {
+    color: var(--primary-color);
+}
+
 
 .option-all__playlist-item-content-singer-name2 {
     font-size: 1.2rem;
