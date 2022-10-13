@@ -1206,7 +1206,7 @@ const app = {
             toast.innerHTML = `
                 <div class="toast__item">
                     <i class="fa-solid fa-circle-exclamation"></i>
-                    <span> Cậu cứ nghe nhạc đi á, đợi tớ cập nhật thêm nha, dù sao cũng chúc mừng sinh nhật cậu :3, đừng có chán quá rồi lại ngồi nghĩ linh tinh xong lại buồn với khóc đấy!!! </span>
+                    <span> Cậu cứ nghe nhạc đi á, đợi tớ cập nhật thêm nha, dù sao cũng chúc mừng sinh nhật cậu :3. Vui vẻ lên đi, đừng nghĩ linh tinh xong lại buồn đó đồ ngốc!!! </span>
                 </div>
             `;
             toatMain.appendChild(toast);
@@ -2062,7 +2062,7 @@ const app = {
                 }
             })
             sliderIndex++;
-            if (sliderIndex >=17) {
+            if (sliderIndex >=18) {
                 sliderIndex = 0;
             }
         }
