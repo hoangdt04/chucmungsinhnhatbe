@@ -2062,7 +2062,7 @@ const app = {
                 }
             })
             sliderIndex++;
-            if (sliderIndex >=16) {
+            if (sliderIndex >=17) {
                 sliderIndex = 0;
             }
         }
