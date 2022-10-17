@@ -92,6 +92,78 @@ const app = {
             pathSong: './assets/music/list-song/tethat.mp3',
             duration : '05:38',
         },
+        
+         {
+            background: './assets/img/songs/aila.jpg',
+            name: 'Ai Là Người Thương Em',
+            singer: 'Quân AP',
+            pathSong: './assets/music/list-song/aila.mp3',
+            duration : '05:07',
+        },
+
+        
+         {
+            background: './assets/img/songs/chodoi.jpg',
+            name: 'Chờ Đợi Có Đáng Sợ',
+            singer: 'Andiez',
+            pathSong: './assets/music/list-song/chodoi.mp3',
+            duration : '04:41',
+        },
+
+        
+         {
+            background: './assets/img/songs/homquatoi.png',
+            name: 'Hôm Qua Tôi Đã Khóc',
+            singer: 'Anh Thư Cover',
+            pathSong: './assets/music/list-song/homquatoi.mp3',
+            duration : '03:56',
+        },
+
+        
+         {
+            background: './assets/img/songs/timlai.jpg',
+            name: 'Tìm Lại Bầu Trời',
+            singer: 'Tuấn Hưng',
+            pathSong: './assets/music/list-song/timlai.mp3',
+            duration : '05:28',
+        },
+
+        
+         {
+            background: './assets/img/songs/phaichia.jpg',
+            name: 'Phải Chia Tay Thôi',
+            singer: 'Tuấn Hưng',
+            pathSong: './assets/music/list-song/phaichia.mp3',
+            duration : '05:13',
+        },
+
+        
+         {
+            background: './assets/img/songs/yeumot.jpg',
+            name: 'Yêu Một Người Tổn Thương',
+            singer: 'Nhật Phong',
+            pathSong: './assets/music/list-song/yeumot.mp3',
+            duration : '04:21',
+        },
+
+        
+         {
+            background: './assets/img/songs/chayve.jpg',
+            name: 'Chạy Về Nơi Phía Anh',
+            singer: 'Khắc Việt x Thảo Bebe',
+            pathSong: './assets/music/list-song/chayve.mp3',
+            duration : '03:02',
+        },
+
+        
+         {
+            background: './assets/img/songs/anhchua.jpg',
+            name: 'Anh Chưa Thương Em Đến Vậy Đâu',
+            singer: 'Lady Mây',
+            pathSong: './assets/music/list-song/anhchua.mp3',
+            duration : '04:25',
+        },
+
 
         {
             background: './assets/img/songs/she.jpg',
