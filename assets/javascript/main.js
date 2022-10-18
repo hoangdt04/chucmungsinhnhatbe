@@ -84,6 +84,13 @@ const app = {
             pathSong: './assets/music/list-song/ngaykhong.mp3',
             duration : '04:23',
         },
+        {
+            background: './assets/img/songs/cuuvan.webp',
+            name: 'Cứu Vãn Kịp Không',
+            singer: 'Vương Anh Tú',
+            pathSong: './assets/music/list-song/cuuvan.mp3',
+            duration : '04:24',
+        },
 
         {
             background: './assets/img/songs/tethat.jpg',
