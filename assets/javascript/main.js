@@ -76,6 +76,14 @@ const app = {
             pathSong: './assets/music/list-song/emkhong.mp3',
             duration : '04:13',
         },
+        
+        {
+            background: './assets/img/songs/hinhnhu.jpg',
+            name: 'Hình Như Ta Thích Nhau ',
+            singer: 'Doãn Hiếu',
+            pathSong: './assets/music/list-song/hinhnhuta.mp3',
+            duration : '03:35',
+        },
 
         {
             background: './assets/img/songs/ngaykhong.jpg',
